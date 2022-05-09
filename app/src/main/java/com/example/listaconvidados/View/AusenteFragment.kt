@@ -1,4 +1,4 @@
-package com.example.listaconvidados.ui.gallery
+package com.example.listaconvidados.View
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,8 +8,9 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.listaconvidados.databinding.FragmentGalleryBinding
+import com.example.listaconvidados.ViewModel.AusenteViewModel
 
-class GalleryFragment : Fragment() {
+class AusenteFragment : Fragment() {
 
     private var _binding: FragmentGalleryBinding? = null
 
@@ -23,7 +24,7 @@ class GalleryFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View {
         val galleryViewModel =
-            ViewModelProvider(this).get(GalleryViewModel::class.java)
+            ViewModelProvider(this).get(AusenteViewModel::class.java)
 
         _binding = FragmentGalleryBinding.inflate(inflater, container, false)
         val root: View = binding.root
