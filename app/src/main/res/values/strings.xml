@@ -10,4 +10,9 @@
     <string name="menu_presentes">Presentes</string>
     <string name="menu_ausentes">Ausentes</string>
     <string name="menu_todos">Todos</string>
+    <string name="remocao_convidado">Remoção</string>
+    <string name="deseja_remover">Deseja mesmo remover?</string>
+    <string name="remover">Remover</string>
+    <string name="cancelar">cancelar</string>
+    <string name="menu_todos_convidados">Todos convidados</string>
 </resources>
